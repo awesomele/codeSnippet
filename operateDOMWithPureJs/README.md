@@ -1,0 +1,3 @@
+- use pure js to operate on dom.
+- play with Document Api such as querySelector, querySelectorAll, addEventListener.
+- note some places tend to make mistakes.
