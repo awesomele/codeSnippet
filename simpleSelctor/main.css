@@ -1,0 +1,36 @@
+/* 1. element*/ 
+h2 {
+  /* Color name */
+  color: red
+}
+/* 2. adjacenet */ 
+h2 + div {
+color: green
+}
+
+/* 3. Descendant  */ 
+.myList li {
+border: 1px solid green
+
+}
+
+/* 4. class */
+.myClass {
+  background: green
+}
+
+/* 5. adjacenet */ 
+.myClass + div {
+  background: green;
+  color:white
+}
+
+/* 6. id */ 
+#myId {
+background: yellow
+}
+
+/*  */
+ul + div:last-child {
+border: 1px solid pink
+}      
